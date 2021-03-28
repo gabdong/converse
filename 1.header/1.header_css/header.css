@@ -1,0 +1,61 @@
+@charset "utf-8";
+#wrap {
+	width: 1440px;
+	width: 90%;
+	margin: 0 auto;
+}
+.header {
+	padding: 20px 0;
+	height: 60px;
+	width: 100%;
+	/*포지션기준*/
+	position: relative;
+}
+.header .logo {
+	/*플롯*/
+	float: left;
+}
+.header nav {
+	width: 100%;
+}
+.header .gnb {
+	/*모바일화면 숨김, 자바스크립트 연동*/
+	display: none;
+	width: 100%;
+	/*포지션*/
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color: #fff;
+	opacity: 0.9;
+	z-index: 100000000;
+}
+.header nav .gnb li {
+	font-family: 'Lato', sans-serif;
+	border: 1px solid #000;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+}
+.header nav .gnb li:hover {
+	background-color: slategray;
+	font-weight: bold;
+}
+.header .mob_ham_btn {
+	display: block;
+	width: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+	/*플롯*/
+	float: right;
+}
+.header .mob_ham_btn .mob_ham_btn_bar {
+	display: block;
+	width: 100%;
+	background-color: #000;
+	height: 2px;
+}
+.header .mob_ham_btn .mob_ham_btn_bar:nth-child(2) {
+	margin: 5px 0;
+}

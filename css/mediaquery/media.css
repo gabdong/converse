@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+/*태블릿용 미디어쿼리 768px이상*/
+@media screen and (min-width:768px){
+	/*1. 헤더영역*/
+	.header {
+		/*포지션기준*/
+		/*값변경*/
+		position: static;
+	}
+	.header .gnb {
+		/*모바일화면 숨김, 자바스크립트 연동*/
+		display: block !important;
+		/*값수정*/
+		width: 450px;
+		/*포지션*/
+		/*값수정*/
+		position: static;
+		/*값수정*/
+		background-color: none;
+		/*값수정*/
+		opacity: 1;
+		/*플롯*/
+		float: right;
+	}
+	.header nav .gnb li {
+		/*값수정*/
+		border: none;
+		/*값수정*/
+		width: 25%;
+		/*값수정*/
+		padding: 0;
+		/*플롯*/
+		float: left;
+	}
+	.header nav .gnb li:hover {
+		/*값수정*/
+		background: none;
+	}
+	.header .mob_ham_btn {
+		/*태블릿화면 숨김*/
+		display: none;
+	}
+	/*1. 헤더영역끝*/
+	
+	/*3. 컨텐츠영역*/
+
+	/*3-1. 컨버스*/
+	.sec_converse {
+		/*값수정*/
+		margin-top: 80px;
+	}
+	.sec_converse .converse_text {
+		width: 100%;
+	}
+	.sec_converse .converse_text .sec_title {
+		/*값수정*/
+		text-align: justify;
+		/*플롯*/
+		float: left;
+	}
+	.sec_converse .converse_text .desc {
+		/*값생성*/
+		font-size: 14px;
+		width: 70%;
+		/*값수정*/
+		text-align: justify;
+		/*값수정*/
+		margin-top: 0px;
+		/*플롯*/
+		float: right;
+		/*포지션기준값*/
+		position: relative;
+	}
+	/*값생성*/
+	.sec_converse .converse_text .desc:before {
+		content: "";
+		display: block;
+		height: 55px;
+		width: 2px;
+		background-color: black;
+		/*포지션*/
+		position: absolute;
+		left: -10px;
+		top: 5px;
+		opacity: 0.8;
+	}
+	.sec_converse .converse_menu {
+		/*값수정*/
+		margin-top: 50px;
+	}
+	.sec_converse .converse_menu li {
+		/*184/768*100*/
+		width: 23.95833333333333%;
+		/*10/768*100*/
+		margin-right: 1.302083333333333%;
+		/*값수정*/
+		margin-top: 0px;
+		/*플롯*/
+		float: left;
+	}
+	/*값생성*/
+	.sec_converse .converse_menu li:nth-child(4) {
+		margin-right: 0;
+	}
+	/*값생성*/
+	.sec_converse .converse_menu li p {
+		font-size: 14px;
+	}
+	/*3-1. 컨버스영역 끝*/
+
+	/*구분선*/
+	.divider {
+		/*값수정*/
+		margin-top: 80px;
+	}
+
+	/*3-2. 커뮤니티영역*/
+	.sec_community {
+		/*값수정*/
+		margin-top: 80px;
+	}
+	.sec_community .sec_title {
+		text-align: justify;
+	}
+	.sec_community .community_images {
+		/*값수정*/
+		margin-top: 50px;
+	}
+	.sec_community .community_images li {
+		/*값수정*/
+		width: 50%;
+		/*플롯값생성*/
+		float: left;
+	}
+	/*3-2. 커뮤니티영역 끝*/
+
+	/*구분선*/
+	.min_divider {
+		/*값수정*/
+		margin-top: 80px;
+	}
+
+	/*3-3. 런칭영역*/
+	.sec_launching {
+		/*값수정*/
+		margin-top: 80px;
+	}
+	.sec_launching .launching_box .sec_title {
+		/*값생성*/
+		width: 25%;
+		/*값수정*/
+		text-align: justify;
+		/*값수정*/
+		margin-bottom: 0;
+		/*플롯값생성*/
+		float: left;
+	}
+	.sec_launching .launching_box .launching_menu {}
+	.sec_launching .launching_box .launching_menu li {
+		width: 185px;
+		/*185/768*100*/
+		width: 24.08854166666667%;
+		/*10/768*100*/
+		margin-right: 1.302083333333333%;
+		/*값생성*/
+		margin-top: 0;
+		/*플롯값생성*/
+		float: left;
+	}
+	/*값생성*/
+	.sec_launching .launching_box .launching_menu li:nth-child(3) {
+		margin-right: 0;
+	}
+	/*3-3. 런칭영역 끝*/
+
+	/*3-4. 컨택트영역*/
+	.sec_contact {
+		/*값수정*/
+		margin-top: 80px;
+	}
+	.sec_contact .sec_title {
+		/*값수정*/
+		text-align: justify;
+		/*값수정*/
+		margin-bottom: 0px;
+		/*값생성*/
+		width: 30%;
+		float: left;
+	}
+	.sec_contact fieldset {
+		/*값수정*/
+		width: 70%;
+		float: left;
+	}
+	.sec_contact fieldset .input_box {
+		/*값수정*/
+		width: 49%;
+		/*값수정*/
+		margin-right: 2%;
+		/*플롯값생성*/
+		float: left;
+	}
+	.sec_contact fieldset .input_box input {
+		margin-bottom: 15px;
+	}
+	.sec_contact fieldset .input_box input:nth-child(6) {
+		margin-bottom: 0;
+	}
+	.sec_contact fieldset .textarea_box {
+		float: right;
+		width: 49%;
+	}
+	.sec_contact fieldset .textarea_box textarea {
+		/*값수정*/
+		width: 100%;
+	}
+	.sec_contact button {
+		/*플롯*/
+		float: right;
+	}
+	/*3-4. 컨택트영역 끝*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PC용 미디어쿼리 1380px이상*/
+@media screen and (min-width:1380px){
+	/*1. 헤더영역*/
+	.header {
+		/*값수정*/
+		height: 80px;
+		/*값수정*/
+		padding: 30px 0;
+	}
+	
+	/*3. 컨텐츠영역*/
+
+	/*3-1. 컨버스*/
+	.sec_converse {
+		/*값수정*/
+		margin-top: 100px;
+	}
+	.sec_converse .converse_text {
+		width: 100%;
+	}
+	.sec_converse .converse_text .sec_title {
+		width: 25%;
+		/*값수정*/
+		text-align: left;
+		/*플롯*/
+		float: left;
+	}
+	.sec_converse .converse_text .desc {
+		/*값생성*/
+		font-size: 16px;
+		/*값수정*/
+		width: auto;
+		/*값수정*/
+		text-align: left;
+	}
+	.sec_converse .converse_menu {
+		/*값수정*/
+		margin-top: 70px;
+	}
+	/*값생성*/
+	.sec_converse .converse_menu li p {
+		/*값수정*/
+		font-size: 16px;
+	}
+	/*3-1. 컨버스영역 끝*/
+
+	/*구분선*/
+	.divider {
+		/*값수정*/
+		margin-top: 100px;
+	}
+
+	/*3-2. 커뮤니티영역*/
+	.sec_community {
+		/*값수정*/
+		margin-top: 100px;
+	}
+	.sec_community .sec_title {
+		text-align: left;
+	}
+	.sec_community .community_images {
+		/*값수정*/
+		margin-top: 70px;
+	}
+	.sec_community .community_images li {
+		/*값수정*/
+		width: 25%;
+		/*플롯값생성*/
+		float: left;
+	}
+	/*3-2. 커뮤니티영역 끝*/
+
+	/*구분선*/
+	.min_divider {
+		/*값수정*/
+		margin-top: 100px;
+	}
+
+	/*3-3. 런칭영역*/
+	.sec_launching {
+		/*값수정*/
+		margin-top: 100px;
+	}
+	.sec_launching .launching_box .sec_title {
+		/*값생성*/
+		width: 25%;
+		/*값수정*/
+		text-align: left;
+		/*값수정*/
+		margin-bottom: 0;
+		/*플롯값생성*/
+		float: left;
+	}
+	.sec_launching .launching_box .launching_menu {}
+	.sec_launching .launching_box .launching_menu li {
+		width: 185px;
+		/*185/768*100*/
+		width: 24.08854166666667%;
+		/*10/768*100*/
+		margin-right: 1.302083333333333%;
+		/*값생성*/
+		margin-top: 0;
+		/*플롯값생성*/
+		float: left;
+	}
+	/*값생성*/
+	.sec_launching .launching_box .launching_menu li:nth-child(3) {
+		margin-right: 0;
+	}
+	/*3-3. 런칭영역 끝*/
+
+	/*3-4. 컨택트영역*/
+	.sec_contact {
+		/*값수정*/
+		margin-top: 100px;
+	}
+	.sec_contact .sec_title {
+		/*값수정*/
+		text-align: left;
+		/*값수정*/
+		margin-bottom: 0px;
+	}
+	/*3-4. 컨택트영역 끝*/
+}
