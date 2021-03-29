@@ -17,7 +17,7 @@
 		/*값수정*/
 		position: static;
 		/*값수정*/
-		background-color: none;
+		background: none;
 		/*값수정*/
 		opacity: 1;
 		/*플롯*/
@@ -156,7 +156,6 @@
 		/*플롯값생성*/
 		float: left;
 	}
-	.sec_launching .launching_box .launching_menu {}
 	.sec_launching .launching_box .launching_menu li {
 		width: 185px;
 		/*185/768*100*/
@@ -329,7 +328,6 @@
 		/*플롯값생성*/
 		float: left;
 	}
-	.sec_launching .launching_box .launching_menu {}
 	.sec_launching .launching_box .launching_menu li {
 		width: 185px;
 		/*185/768*100*/
